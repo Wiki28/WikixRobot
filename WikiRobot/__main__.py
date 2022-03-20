@@ -93,19 +93,21 @@ PM_START_TEXT = """
 """
 
 buttons = [
-    [   
-       InlineKeyboardButton(text="My Boss", url="t.me/terserah_wiki"),
+    [
+        InlineKeyboardButton(text="My Darling", url="https://t.me/terserah_wiki"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
+        InlineKeyboardButton(text="Music Help​​", callback_data="Wiki_music"),
+    ],
+    [
         InlineKeyboardButton(text="About Wiki", callback_data="Wiki_"),
     ],
     [
         InlineKeyboardButton(
-            text="➗ Tambahkan Saya Ke Group ➗", url="t.me/WikiTapiBot?startgroup=new"),
+            text="➗ Add Muscat To Your Group ➗", url="t.me/WikiTapiBot?startgroup=new"),
     ],
 ]
-
 
 HELP_STRINGS = """
 Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
@@ -113,7 +115,7 @@ Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."
 EMI_IMG = "https://telegra.ph/file/9b9a27cd02e65046d5515.jpg"
 
 DONATE_STRING = """Heya, senang mendengar Anda ingin menyumbang!
- Anda dapat mendukung proyek dengan menghubungi @excrybaby \
+ Anda dapat mendukung proyek dengan menghubungi @terserah_wiki \
  Mendukung tidak selalu finansial! \
  Mereka yang tidak dapat memberikan dukungan keuangan dipersilakan untuk membantu kami mengembangkan bot di."""
 
@@ -390,6 +392,27 @@ def Wiki_about_callback(update, context):
                 ]
             ),
         )
+    elif query.data == "Wiki_music":
+        query.message.edit_text(
+            text="*๏Perintah Bot Music+Streaming*"
+            "\nKlik di bawah ini untuk lebih jelas perintah Bot Music+Streaming.",
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="CD Music", url="https://t.me/WikiTapiChannel/138"),
+                    InlineKeyboardButton(text="CD Dev", url="https://t.me/WikiTapiChannel/139"),
+                    InlineKeyboardButton(text="CD Stream", url="https://t.me/WikiTapiChannel/140"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Go Back", callback_data="Wiki_"),
+                 ]
+                ]
+            ),
+        )
+
+
     elif query.data == "Wiki_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
