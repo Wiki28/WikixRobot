@@ -94,7 +94,7 @@ PM_START_TEXT = """
 
 buttons = [
     [   
-       InlineKeyboardButton(text="My Darling", url="t.me/WikiTapiOrang"),
+       InlineKeyboardButton(text="My Boss", url="t.me/terserah_wiki"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -441,8 +441,8 @@ def Wiki_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/Wikisupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/WikiTapiGroup"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/WikiTapiChannel"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="Wiki_"),
