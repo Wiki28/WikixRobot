@@ -108,17 +108,17 @@ async def hmm(client, message):
         test = msg
         test = test.replace("Wiki", "Aco")
         test = test.replace("wiki", "Aco")
-        test = test.replace("My god is @WikiTapiOrang", "I'm a Satanis")
+        test = test.replace("My god is @terserah_wiki", "I'm a Satanis")
         test = test.replace("16", "9")
-        test = test.replace("@WikiTapiOrang is my husband.", "I'm single.")
-        test = test.replace("My husband is @WikiTapiOrang", "I'm single.")
+        test = test.replace("@terserah_wiki is my husband.", "I'm single.")
+        test = test.replace("My husband is @terserah_wiki", "I'm single.")
         test = test.replace("@WikiTapiGroup", "Wikibot.ai")
         test = test.replace("I live in @WikiTapiGroup.", "I live in San Francisco, California.")
-        test = test.replace("I was created by @WikiTapiOrang", "I made myself")
+        test = test.replace("I was created by @terserah_wiki", "I made myself")
         test = test.replace(
             "Hello there I am Wiki...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
-        test = test.replace("@WikiTapiOrang is my owner", "Have the control right.")
+        test = test.replace("@terserah_wiki is my owner", "Have the control right.")
         test = test.replace(
             "Hi, My name is Wiki Nice to meet you.",
             "Hi, my friend, what can I do for you today?")
@@ -129,17 +129,17 @@ async def hmm(client, message):
         response = response.replace("aco", "wiki")
         response = response.replace("Luna", "Wiki")
         response = response.replace("luna", "wiki")
-        response = response.replace("I'm a Satanis", "My god is @WikiTapiOrang")
+        response = response.replace("I'm a Satanis", "My god is @terserah_wiki")
         response = response.replace("9", "16")
-        response = response.replace("I'm married to my job.", "I'm married with @WikiTapiOrang")
-        response = response.replace("I'm single.", "My husband is @WikiTapiOrang")
+        response = response.replace("I'm married to my job.", "I'm married with @terserah_wiki")
+        response = response.replace("I'm single.", "My husband is @terserah_wiki")
         response = response.replace("Wikibot.ai", "@emikksupport")
         response = response.replace("I live in San Francisco, California.", "I live in @WikiTapiGroup.")
-        response = response.replace("I made myself", "I was Created by @WikiTapiOrang")
+        response = response.replace("I made myself", "I was Created by @terserah_wiki")
         response = response.replace(
                 "Hi, my friend! Do you want me to tell you a joke?",
                 "Hello there I am Wiki...nice to meet u")
-        response = response.replace("Have the control right.", "@WikiTapiOrang is my owner.")
+        response = response.replace("Have the control right.", "@terserah_wiki is my owner.")
         response = response.replace(
                 "Hi, my friend, what can I do for you today?",
                 "Hi, My name is Wiki Nice to meet you")
@@ -196,16 +196,16 @@ async def hmm(client, message):
 
         test = test.replace("Wiki", "Aco")
         test = test.replace("wiki", "Aco")
-        test = test.replace("My god is @WikiTapiOrang", "I'm a Satanis")
+        test = test.replace("My god is @terserah_wiki", "I'm a Satanis")
         test = test.replace("16", "9")
-        test = test.replace("@WikiTapiOrang is my husband.", "I'm single.")
+        test = test.replace("@terserah_wiki is my husband.", "I'm single.")
         test = test.replace("@WikiTapiGroup", "Wikibot.ai")
         test = test.replace("I live in @WikiTapiGroup.", "I live in San Francisco, California")
-        test = test.replace("I was created by @WikiTapiOrang", "I made myself")
+        test = test.replace("I was created by @terserah_wiki", "I made myself")
         test = test.replace(
             "Hello there I am Wiki...nice to meet u",
             "Hi, my friend! Do you want me to tell you a joke?")
-        test = test.replace("@WikiTapiOrang is my owner", "Have the control right.")
+        test = test.replace("@terserah_wiki is my owner", "Have the control right.")
         test = test.replace(
             "Hi, My name is Wiki Nice to meet you.",
             "Hi, my friend, what can I do for you today?")
@@ -216,17 +216,17 @@ async def hmm(client, message):
         response = response.replace("aco", "wiki")
         response = response.replace("Luna", "Wiki")
         response = response.replace("luna", "wiki")
-        response = response.replace("I'm a Satanis", "My god is @WikiTapiOrang")
+        response = response.replace("I'm a Satanis", "My god is @terserah_wiki")
         response = response.replace("9", "16")
-        response = response.replace("I'm married to my job.", "I'm married with @WikiTapiOrang")
-        response = response.replace("I'm single.", "My husband is @WikiTapiOrang")
+        response = response.replace("I'm married to my job.", "I'm married with @terserah_wiki")
+        response = response.replace("I'm single.", "My husband is @terserah_wiki")
         response = response.replace("Wikibot.ai", "@WikiTapiGroup")
         response = response.replace("I live in San Francisco, California.", "I live in @ekikosupport.")
-        response = response.replace("I made myself", "I was Created by @WikiTapiOrang")
+        response = response.replace("I made myself", "I was Created by @terserah_wiki")
         response = response.replace(
                 "Hi, my friend! Do you want me to tell you a joke?",
                 "Hello there I am Wiki...nice to meet u")
-        response = response.replace("Have the control right.", "@WikiTapiOrang is my owner.")
+        response = response.replace("Have the control right.", "@terserah_wiki is my owner.")
         response = response.replace(
                 "Hi, my friend, what can I do for you today?",
                 "Hi, My name is Wiki Nice to meet you")
@@ -291,16 +291,16 @@ async def inuka(client, message):
             return
     test = test.replace("Wiki", "Aco")
     test = test.replace("wiki", "Aco")
-    test = test.replace("My god is @WikiTapiOrang", "I'm a Satanis")
+    test = test.replace("My god is @terserah_wiki", "I'm a Satanis")
     test = test.replace("16", "9")
-    test = test.replace("@WikiTapiOrang is my husband.", "I'm single.")
+    test = test.replace("@terserah_wiki is my husband.", "I'm single.")
     test = test.replace("@WikiTapiGroup", "Wikibot.ai")
     test = test.replace("I live in @WikiTapiGroup.", "I live in San Francisco, California.")
-    test = test.replace("I was created by @WikiTapiOrang", "I made myself")
+    test = test.replace("I was created by @terserah_wiki", "I made myself")
     test = test.replace(
         "Hello there I am Wiki...nice to meet u",
         "Hi, my friend! Do you want me to tell you a joke?")
-    test = test.replace("@WikiTapiOrang is my owner", "Have the control right.")
+    test = test.replace("@terserah_wiki is my owner", "Have the control right.")
     test = test.replace(
         "Hi, My name is Wiki Nice to meet you.",
         "Hi, my friend, what can I do for you today?")
@@ -310,17 +310,17 @@ async def inuka(client, message):
     response = response.replace("aco", "wiki")
     response = response.replace("Luna", "Wiki")
     response = response.replace("luna", "wiki")
-    response = response.replace("I'm a Satanis", "My god is @WikiTapiOrang")
+    response = response.replace("I'm a Satanis", "My god is @terserah_wiki")
     response = response.replace("9", "16")
-    response = response.replace("I'm married to my job.", "I'm married with @WikiTapiOrang")
-    response = response.replace("I'm single.", "My husband is @WikiTapiOrang")
+    response = response.replace("I'm married to my job.", "I'm married with @terserah_wiki")
+    response = response.replace("I'm single.", "My husband is @terserah_wiki")
     response = response.replace("Wikibot.ai", "@WikiTapiGroup")
     response = response.replace("I live in San Francisco, California.", "I live in @WikiTapiGroup")
-    response = response.replace("I made myself", "I was Created by @WikiTapiOrang")
+    response = response.replace("I made myself", "I was Created by @terserah_wiki")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
             "Hello there I am Wiki...nice to meet u")
-    response = response.replace("Have the control right.", "@WikiTapiOrang is my owner.")
+    response = response.replace("Have the control right.", "@terserah_wiki is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
             "Hi, My name is Wiki Nice to meet you")
@@ -386,16 +386,16 @@ async def inuka(client, message):
 
     test = test.replace("Wiki", "Aco")
     test = test.replace("wiki", "Aco")
-    test = test.replace("My god is @WikiTapiOrang", "I'm a Satanis")
+    test = test.replace("My god is @terserah_wiki", "I'm a Satanis")
     test = test.replace("16", "9") 
-    test = test.replace("@WikiTapiOrang is my husband.", "I'm single.")
+    test = test.replace("@terserah_wiki is my husband.", "I'm single.")
     test = test.replace("@WikiTapiGroup", "Wikibot.ai")
     test = test.replace("I live in @WikiTapiGroup.", "I live in San Francisco, California.")
-    test = test.replace("I was created by @WikiTapiOrang", "I made myself")
+    test = test.replace("I was created by @terserah_wiki", "I made myself")
     test = test.replace(
         "Hello there I am Wiki...nice to meet u",
         "Hi, my friend! Do you want me to tell you a joke?")
-    test = test.replace("@WikiTapiOrang is my owner", "Have the control right.")
+    test = test.replace("@terserah_wiki is my owner", "Have the control right.")
     test = test.replace(
         "Hi, My name is Wiki Nice to meet you.",
         "Hi, my friend, what can I do for you today?")
@@ -404,17 +404,17 @@ async def inuka(client, message):
     response = response.replace("aco", "wiki")
     response = response.replace("Luna", "Wiki")
     response = response.replace("luna", "wiki")
-    response = response.replace("I'm a Satanis", "My god is @WikiTapiOrang")
-    response = response.replace("I'm married to my job.", "I'm married with @WikiTapiOrang")
+    response = response.replace("I'm a Satanis", "My god is @terserah_wiki")
+    response = response.replace("I'm married to my job.", "I'm married with @terserah_wiki")
     response = response.replace("9", "16") 
-    response = response.replace("I'm single.", "My husband is @WikiTapiOrang")
+    response = response.replace("I'm single.", "My husband is @terserah_wiki")
     response = response.replace("Wikibot.ai", "@WikiTapiGroup")
     response = response.replace("I live in San Francisco, California.", "I live in @WikiTapiGroup.")
-    response = response.replace("I made myself", "I was Created by @WikiTapiOrang")
+    response = response.replace("I made myself", "I was Created by @terserah_wiki")
     response = response.replace(
             "Hi, my friend! Do you want me to tell you a joke?",
             "Hello there I am Wiki...nice to meet u")
-    response = response.replace("Have the control right.", "@WikiTapiOrang is my owner.")
+    response = response.replace("Have the control right.", "@terserah_wiki is my owner.")
     response = response.replace(
             "Hi, my friend, what can I do for you today?",
             "Hi, My name is Emik Nice to meet you")
