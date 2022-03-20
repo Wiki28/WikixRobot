@@ -13,9 +13,9 @@ PHOTO = "https://telegra.ph/file/9b9a27cd02e65046d5515.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hai [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Emiko Robot.** \n\n"
+  TEXT = f"**Hai [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Wiki W.** \n\n"
   TEXT += "⚪ **Saya Bekerja Dengan Benar** \n\n"
-  TEXT += f"⚪ **Tuanku : [Wiki W](WikiTapiOrang)** \n\n"
+  TEXT += f"⚪ **Tuanku : [Wiki W](terserah_wiki)** \n\n"
   TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
   TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
